@@ -1,0 +1,31 @@
+
+html,body {
+background-color: #A2C00F;
+}
+
+
+
+/*.ul {
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+    float: left;
+}*/
+ul
+{
+float:left;
+width:100%;
+padding:0;
+margin:0;
+list-style-type:none;
+}
+a
+{
+float:left;
+width:6em;
+text-decoration:none;
+color:white;
+padding:0.2em 0.6em;
+border-right:1px solid white;
+}
+
+

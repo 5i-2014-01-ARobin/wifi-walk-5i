@@ -1,27 +1,29 @@
 
-html, body {
+.inleiding {
     background-color: #A2C00F;
 }
 
-/*.ul {
-    font-family: 'Lucida Sans';
-    font-size: 18px;
-    float: left;
-}*/
+.menu .container {
+    background-color: #ffffff;
+    position: static;
+}
 
 .menu ul {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    margin: 2px;
     list-style-type: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    border-right: 2px solid #a2c00f;
 }
 
 .menu a {
-    float: left;
-    width: 6em;
-    text-decoration: none;
-    color: white;
-    padding: 0.2em 0.6em;
-    border-right: 1px solid white;
+    color: #A2C00F;
+    font-weight: bold;
+    padding: 2px 5px;
+    margin: 3px 2px;
+    font-family: 'Lucida Sans';
+    font-size: 26px;
 }

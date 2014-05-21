@@ -3,18 +3,18 @@
     background-color: #A2C00F;
 }
 
-.inleiding .container {     
-font-family: 'Lucida Sans';
-}
+    .inleiding .container {
+        font-family: 'Lucida Sans';
+    }
 
 .menu .container {
     background-color: #ffffff;
 }
 
-.menu .container .logo {
-    text-align: left;
-    vertical-align: top;
-}
+    .menu .container .logo {
+        text-align: left;
+        vertical-align: top;
+    }
 
 .menu img {
     width: 300px;
@@ -43,7 +43,6 @@ font-family: 'Lucida Sans';
 .menu li {
     display: inline;
     margin: 1px;
-    
 }
 
 .menu a {
@@ -52,8 +51,12 @@ font-family: 'Lucida Sans';
     padding: 1px;
     font-family: 'Lucida Sans';
     font-size: 24px;
-    
 }
-    .menu a:hover {
-        color: #ff3300;
-    }
+
+.menu a:hover {
+    color: #ff3300;
+}
+
+.einde {
+    height: 40px;
+}

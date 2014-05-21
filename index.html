@@ -4,9 +4,10 @@
 
     <title>Wifiwalk</title>
 
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" />
+    
 </head>
 <body>
     <div class="menu">
@@ -24,8 +25,8 @@
                                 <li><a href="#home" id="home">Home</a></li>
                                 <li><a href="#route" id="route">Route</a></li>
                                 <li><a href="#resultaten" id="results">Resultaten</a></li>
-                                <li><a href="#foto" id="foto's">Foto's</a></li>
-                                <li><a href="#schooljaar2012-2013" id="vorigjaar">2012-2013</a></li>
+                                <li><a href="#foto" id="fotos">Foto's</a></li>
+                                <li><a href="#jaar12-13" id="jaar12-13">Vorig Jaar</a></li>
                             </ul>
                         </td>
                     </tr>
@@ -70,6 +71,25 @@
     <div class="einde">
     </div>
     <script>
+        $('#home').on('click', function() {
+            console.log('home');
+        });
+
+        $('#route').on('click', function () {
+            console.log('route');
+        });
+
+        $('#results').on('click', function () {
+            console.log('results');
+        });
+
+        $('#fotos').on('click', function () {
+            console.log('fotos');
+        });
+
+        $('#jaar12-13').on('click', function () {
+            console.log('jaar12-13');
+        });
     </script>
 </body>
 

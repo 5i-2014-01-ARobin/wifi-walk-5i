@@ -3,6 +3,10 @@
     background-color: #A2C00F;
 }
 
+    .inleiding .container {
+        font-family: 'Lucida Sans';
+    }
+
 .menu .container {
     background-color: #ffffff;
 }

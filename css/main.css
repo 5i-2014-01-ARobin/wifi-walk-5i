@@ -1,11 +1,4 @@
 
-.inleiding {
-    background-color: #A2C00F;
-}
-
-    .inleiding .container {
-        font-family: 'Lucida Sans';
-    }
 
 .menu .container {
     background-color: #ffffff;
@@ -43,6 +36,7 @@
 .menu li {
     display: inline;
     margin: 1px;
+    
 }
 
 .menu a {
@@ -51,8 +45,8 @@
     padding: 1px;
     font-family: 'Lucida Sans';
     font-size: 24px;
+    
 }
-
-.einde {
-    height: 40px;
-}
+    .menu a:hover {
+        color: #ff3300;
+    }

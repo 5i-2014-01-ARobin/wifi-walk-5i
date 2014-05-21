@@ -9,6 +9,7 @@
 
 .menu .container {
     background-color: #ffffff;
+    position: static;
 }
 
     .menu .container .logo {
